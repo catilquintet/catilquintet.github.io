@@ -924,7 +924,7 @@ ul.pages-music p {
 /************************************Hero Photos*******************************************/
 
 .hero {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/misc/CATILcollphoto.jpg");
+  background-image: url("pictures/misc/CATILcollphoto.jpg");
   height: 380px;
   z-index: 100;
   margin-bottom: -46px;
@@ -932,7 +932,7 @@ ul.pages-music p {
 }
 
 .music-hero {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/misc/catilbeachphoto.jpg");
+  background-image: url("pictures/misc/catilbeachphoto.jpg");
   height: 300px;
   margin-bottom: 2em;
   margin-top: 2em;
@@ -1287,32 +1287,32 @@ div li.hide {
 }
 
 .a {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/gallery/stepslaughing.jpg");
+  background-image: url("pictures/gallery/stepslaughing.jpg");
   background-size: cover;
 }
 
 .b {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/gallery/outsidecoll.jpg");
+  background-image: url("pictures/gallery/outsidecoll.jpg");
   background-size: cover;
 }
 
 .c {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/gallery/catilmiltoncourt.jpg");
+  background-image: url("pictures/gallery/catilmiltoncourt.jpg");
   background-size: cover;
 }
 
 .d {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/gallery/pew.jpg");
+  background-image: url("pictures/gallery/pew.jpg");
   background-size: cover;
 }
 
 .e {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/gallery/juneconcertplaying.jpg");
+  background-image: url("pictures/gallery/juneconcertplaying.jpg");
   background-size: cover;
 }
 
 .f {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/gallery/lakesidestanding.jpg");
+  background-image: url("pictures/gallery/lakesidestanding.jpg");
   background-size: cover;
 }
 
@@ -1322,17 +1322,17 @@ div li.hide {
 }
 
 .h {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/blog/silhouette.jpg");
+  background-image: url("pictures/blog/silhouette.jpg");
   background-size: cover;
 }
 
 .i {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/blog/catilcoll.jpg");
+  background-image: url("pictures/blog/catilcoll.jpg");
   background-size: cover;
 }
 
 .j {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/musicians/charisheadshot.jpg");
+  background-image: url("pictures/musicians/charisheadshot.jpg");
   background-size: cover;
 }
 
@@ -1342,17 +1342,17 @@ div li.hide {
 }
 
 .l {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/musicians/thaisheadshot.jpg");
+  background-image: url("pictures/musicians/thaisheadshot.jpg");
   background-size: cover;
 }
 
 .m {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/musicians/isabellaheadshot.jpg");
+  background-image: url("pictures/musicians/isabellaheadshot.jpg");
   background-size: cover;
 }
 
 .n {
-  background-image: url("file:///Users/isabellaward-ackland/Documents/catilquintet.co.uk/pictures/musicians/lilyheadshot.jpg");
+  background-image: url("pictures/musicians/lilyheadshot.jpg");
   background-size: cover;
 }
 
@@ -1398,3 +1398,4 @@ div li.hide {
   background-size: contain;
   float: right;
 }
+
