@@ -1,6 +1,6 @@
 var $form = $("form#email-form"),
   url =
-    "https://script.google.com/macros/s/AKfycbxXoVx2Li2yYQN1EnyT1df7re3JfJ9bVI53kYgaUmbxjfYvQ1v1OVr_mUDjs5td-93z-A/exec";
+    "https://script.google.com/macros/s/AKfycbzRU5C3oqZqZU2E-oB6i8ht_YwapkfWk0WHgrXoDHRM7cpMnTfsea5GBr0QylSKBBDzVg/exec";
 
 $("input[type$='button']").on("click", function (e) {
   var x = document.forms["email-form"]["email"].value;
@@ -23,3 +23,4 @@ $("input[type$='button']").on("click", function (e) {
       ();
   }
 });
+
