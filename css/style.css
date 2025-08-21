@@ -924,7 +924,7 @@ ul.pages-music p {
 /************************************Hero Photos*******************************************/
 
 .hero {
-  background-image: url("../pictures/misc/CATILcollphoto.jpg");
+  background-image: url("../pictures/misc/coverphoto.jpeg");
   height: 380px;
   z-index: 100;
   margin-bottom: -46px;
@@ -1398,5 +1398,6 @@ div li.hide {
   background-size: contain;
   float: right;
 }
+
 
 
