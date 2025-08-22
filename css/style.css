@@ -1278,6 +1278,18 @@ div li.hide {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.imgbox {
+  height: 400px;
+  width: 500px;
+  overflow: hidden;
+  border: hidden 1px #000;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: right;
+}
+
 @media all and (min-width: 320px) and (max-width: 640px) {
   .tile {
     font-size: 1.125em;
@@ -1387,17 +1399,8 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
-.imgbox {
-  height: 400px;
-  width: 500px;
-  overflow: hidden;
-  border: hidden 1px #000;
-  margin-left: 10px;
-  margin-top: 10px;
-  background-repeat: no-repeat;
-  background-size: contain;
-  float: right;
-}
+
+
 
 
 
