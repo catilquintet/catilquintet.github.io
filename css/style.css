@@ -1290,13 +1290,19 @@ div li.hide {
   float: right;
 }
 
+#container:before {
+  content: ' ';
+  display: table;
+  width: 10em;    /* Min width required */
+}
+
 @media all and (min-width: 321px) and (max-width: 480px) {
   .imgbox {
     object-fit: scale-down;
     max-width: 60%;
     display: block !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin: 1em;
+    
   }
 }
 
