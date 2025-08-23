@@ -1293,7 +1293,6 @@ div li.hide {
 
 @media all and (min-width: 321px) and (max-width: 480px) {
   .imgbox {
-    object-fit: scale-down;
     max-width: 60%;
     float: none !important;    
   }
@@ -1409,6 +1408,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
