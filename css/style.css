@@ -1278,28 +1278,34 @@ div li.hide {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
+.content-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 16px;
+}
+
 .imgbox {
-  height: 400px;
   width: 500px;
-  overflow: hidden;
-  border: hidden 1px #000;
-  margin-left: 20px;
-  margin-top: 10px;
-  background-repeat: no-repeat;
+  height: 400px;
   background-size: contain;
-  float: right;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0;
 }
 
 
 @media all and (min-width: 321px) and (max-width: 480px) {
+  .content-box {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .imgbox {
     max-width: 70%;
-    margin-top: 0 !important;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: left;
+    height: auto;
+    aspect-ratio: 4 / 3;
+    margin-top: 0;
   }
 }
 
@@ -1431,6 +1437,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
