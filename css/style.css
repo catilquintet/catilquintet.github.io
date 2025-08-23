@@ -1309,6 +1309,27 @@ div li.hide {
   }
 }
 
+.fb_embed {
+  height: 400px;
+  width: 500px;
+  overflow: hidden;
+  border: hidden 1px #000;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+@media all and (min-width: 321px) and (max-width: 480px) {
+  .fb_embed {
+    max-width: 60%;
+    float: right;
+    margin: 0 0 10px 20px;
+    display: block;
+  }
+}
+  
+
 .a {
   background-image: url("../pictures/gallery/stepslaughing.jpg");
   background-size: cover;
@@ -1410,6 +1431,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
