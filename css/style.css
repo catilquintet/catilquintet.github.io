@@ -1313,22 +1313,17 @@ div li.hide {
 }
 
 .fb_embed {
-  height: 400px;
-  width: 500px;
+  max-width: 100%;
+  width: 500px; /* or whatever size fits your layout */
+  margin: 0 auto; /* center it */
   overflow: hidden;
-  border: hidden 1px #000;
-  margin-left: 20px;
-  margin-top: 10px;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
-@media all and (min-width: 321px) and (max-width: 480px) {
-  .fb_embed {
-    max-width: 60%;
-    float: right;
-    margin: 0 0 10px 20px;
-    display: block;
+@media (max-width: 600px) {
+  .fb-container {
+    transform: scale(0.9);
+    transform-origin: top center;
+    height: 400px;
   }
 }
   
@@ -1434,6 +1429,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
