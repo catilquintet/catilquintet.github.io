@@ -1294,9 +1294,9 @@ div li.hide {
 @media all and (min-width: 321px) and (max-width: 480px) {
   .imgbox {
     max-width: 60%;
-    flex-direction: row;
-    align-items: flex-start;
-    text-align: left;  
+    float: right;
+    margin: 0 0 10px 20px;
+    display: block;
   }
 }
 
@@ -1410,6 +1410,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
