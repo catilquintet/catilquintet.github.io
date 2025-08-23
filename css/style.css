@@ -1294,12 +1294,12 @@ div li.hide {
 @media all and (min-width: 321px) and (max-width: 480px) {
   .imgbox {
     max-width: 70%;
-    float: right;
-    margin: 0 0 10px 0px !important;
-    display: block;
+    margin: 0 !important;
+    padding: 0;
+    display: flex;
     flex-direction: row;
-    align-items: flex-start !important;
-    text-align: left;  
+    align-items: center;
+    text-align: left;
   }
 }
 
@@ -1312,12 +1312,14 @@ div li.hide {
   }
 }
 
+
 .fb_embed {
   max-width: 100%;
   width: 500px; /* or whatever size fits your layout */
   margin: 0 auto; /* center it */
   overflow: hidden;
 }
+
 
 @media (max-width: 600px) {
   .fb-container {
@@ -1429,6 +1431,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
