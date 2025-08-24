@@ -1288,7 +1288,7 @@ div li.hide {
   background-size: contain;
 }
 
-
+/* fixing
 @media all and (min-width: 321px) and (max-width: 480px) {
   .imgbox {
     max-width: 70%;
@@ -1296,7 +1296,7 @@ div li.hide {
     margin-top: 0;
   }
 }
-
+*/
 
 
 @media all and (min-width: 320px) and (max-width: 640px) {
@@ -1426,6 +1426,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
