@@ -1282,7 +1282,6 @@ div li.hide {
 .imgbox {
   width: 500px;
   height: 400px
-  margin: 20px 10px;
   overflow: hidden;
   float: right !important;
   background-repeat: no-repeat;
@@ -1431,6 +1430,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
