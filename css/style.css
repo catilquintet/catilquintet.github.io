@@ -1282,9 +1282,9 @@ div li.hide {
 .imgbox {
   height: 500px;
   width: 625px;
-  padding: 20px;
+  margin: 20px 10px;
   overflow: hidden;
-  float: right;
+  float: right !important;
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1292,7 +1292,10 @@ div li.hide {
 
 @media all and (min-width: 321px) and (max-width: 480px) {
   .imgbox {
-    max-width: 70%;
+    object-fit: scale-down; 
+    max-width: 100%;
+    float: none;
+    clear: both;
   }
 }
 
@@ -1406,6 +1409,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
