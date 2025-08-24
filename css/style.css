@@ -1307,24 +1307,6 @@ div li.hide {
   }
 }
 
-
-.fb_embed {
-  max-width: 100%;
-  width: 500px; /* or whatever size fits your layout */
-  margin: 0 auto; /* center it */
-  overflow: hidden;
-}
-
-
-@media (max-width: 600px) {
-  .fb-container {
-    transform: scale(0.9);
-    transform-origin: top center;
-    height: 400px;
-  }
-}
-  
-
 .a {
   background-image: url("../pictures/gallery/stepslaughing.jpg");
   background-size: cover;
@@ -1426,6 +1408,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
