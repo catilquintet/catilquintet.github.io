@@ -1281,6 +1281,7 @@ div li.hide {
 
 .imgbox {
   width: 500px;
+  height: 400px
   margin: 20px 10px;
   overflow: hidden;
   float: right !important;
@@ -1297,6 +1298,7 @@ div li.hide {
     aspect-ratio: 4 / 3;
     float: none;
   }
+}
 
 
 @media all and (min-width: 320px) and (max-width: 640px) {
@@ -1306,7 +1308,8 @@ div li.hide {
     width: 100%;
   }
 }
-  
+
+/* fixing
 .fb-embed {
   max-width: 100%;
   margin: 0 auto;
@@ -1325,6 +1328,7 @@ div li.hide {
     padding: 5px;
   }
 }
+*/
 
 .a {
   background-image: url("../pictures/gallery/stepslaughing.jpg");
@@ -1427,6 +1431,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
