@@ -1289,17 +1289,12 @@ div li.hide {
 }
 
 
-@media all and (min-width: 321px) and (max-width: 480px) {
+@media all and (max-width: 680px) {
   .imgbox {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    display: block !important;
     width: 100%;
-    height: 200px; /* or use aspect-ratio */
-    /* aspect-ratio: 4 / 3; */
+    aspect-ratio: 4 / 3;
     float: none;
-    clear: both;
-    display: block;
   }
 
 
@@ -1412,6 +1407,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
