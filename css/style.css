@@ -1305,6 +1305,25 @@ div li.hide {
     width: 100%;
   }
 }
+  
+.fb-embed {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.fb-embed iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+@media all and (max-width: 680px) {
+  .fb-embed {
+    padding: 5px;
+  }
+}
 
 .a {
   background-image: url("../pictures/gallery/stepslaughing.jpg");
@@ -1407,6 +1426,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
