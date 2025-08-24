@@ -1236,6 +1236,7 @@ div li.hide {
 
 /**************************************Picture & News Thumbnails********************************************/
 
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -1280,12 +1281,15 @@ div li.hide {
 
 
 .imgbox {
-  width: 500px;
   height: 400px;
+  width: 500px;
   overflow: hidden;
-  float: right !important;
+  border: hidden 1px #000;
+  margin-left: 20px;
+  margin-top: 10px;
   background-repeat: no-repeat;
   background-size: contain;
+  float: right;
 }
 
 
@@ -1430,6 +1434,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
