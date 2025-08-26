@@ -1297,8 +1297,7 @@ div li.hide {
   .imgbox {
     display: block !important;
     margin: auto !important;
-    max-width: 70%;
-    height: auto;
+    height: 200px;
     float: none;
   }
 }
@@ -1434,6 +1433,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
