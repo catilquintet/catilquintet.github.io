@@ -923,27 +923,14 @@ ul.pages-music p {
 
 /************************************Hero Photos*******************************************/
 
-@media screen and (max-width: 749px) {
-  .phonehero {
-    background-image: url("../pictures/misc/coverphoto.jpg");
-    height: 380px;
-    z-index: 100;
-    margin-bottom: -46px;
-    border-bottom: 0.2em solid #333a56;
-    display: block;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .desktophero {
+  .hero {
     background-image: url("../pictures/misc/coverphotocropped.jpg");
     height: 380px;
     z-index: 100;
     margin-bottom: -46px;
     border-bottom: 0.2em solid #333a56;
-    display: block;
   }
-}
+
 
 .music-hero {
   background-image: url("../pictures/misc/catilbeachphoto.jpg");
@@ -952,7 +939,7 @@ ul.pages-music p {
   margin-top: 2em;
 }
 
-.desktophero, .phonehero,
+.hero,
 .music-hero {
   background-position: center;
   background-repeat: no-repeat;
@@ -990,7 +977,7 @@ ul.pages-music p {
     padding-top: 0.5em;
   }
 
-  .desktophero {
+  .hero {
     background-image: url("../pictures/misc/coverphotocropped.jpg");
     height: 320px;
     background-position: bottom;
