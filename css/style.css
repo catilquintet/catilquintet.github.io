@@ -923,12 +923,26 @@ ul.pages-music p {
 
 /************************************Hero Photos*******************************************/
 
-.hero {
-  background-image: url("../pictures/misc/coverphoto.jpg");
-  height: 380px;
-  z-index: 100;
-  margin-bottom: -46px;
-  border-bottom: 0.2em solid #333a56;
+@media screen and (max-width: 749px) {
+  .phonehero {
+    background-image: url("../pictures/misc/coverphoto.jpg");
+    height: 380px;
+    z-index: 100;
+    margin-bottom: -46px;
+    border-bottom: 0.2em solid #333a56;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .desktophero {
+    background-image: url("../pictures/misc/coverphotocropped.jpg");
+    height: 380px;
+    z-index: 100;
+    margin-bottom: -46px;
+    border-bottom: 0.2em solid #333a56;
+    display: block;
+  }
 }
 
 .music-hero {
@@ -938,7 +952,7 @@ ul.pages-music p {
   margin-top: 2em;
 }
 
-.hero,
+.desktophero, .phonehero,
 .music-hero {
   background-position: center;
   background-repeat: no-repeat;
@@ -976,7 +990,17 @@ ul.pages-music p {
     padding-top: 0.5em;
   }
 
-  .hero {
+  .desktophero {
+    background-image: url("../pictures/misc/coverphotocropped.jpg");
+    height: 320px;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: -100px;
+  }
+
+   .phonehero {
     background-image: url("../pictures/misc/coverphoto.jpg");
     height: 320px;
     background-position: bottom;
@@ -1433,6 +1457,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
