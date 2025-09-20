@@ -924,6 +924,16 @@ ul.pages-music p {
 /************************************Hero Photos*******************************************/
 
   .hero {
+    background-image: url("../pictures/misc/coverphotocroppped.jpg");
+    height: 380px;
+    width: 100%;
+    z-index: 100;
+    margin-bottom: -46px;
+    border-bottom: 0.2em solid #333a56;
+  }
+
+@media screen and (min-width: 768px) {
+ .hero {
     background-image: url("../pictures/misc/coverphoto.jpg");
     height: 380px;
     width: 100%;
@@ -931,6 +941,7 @@ ul.pages-music p {
     margin-bottom: -46px;
     border-bottom: 0.2em solid #333a56;
   }
+}
 
 
 .music-hero {
@@ -1436,6 +1447,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
