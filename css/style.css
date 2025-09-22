@@ -932,7 +932,7 @@ ul.pages-music p {
     border-bottom: 0.2em solid #333a56;
   }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
  .hero {
     background-image: url("../pictures/misc/coverphoto.jpg");
     height: 380px;
@@ -1447,6 +1447,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
