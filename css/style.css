@@ -978,6 +978,15 @@ ul.pages-music p {
   }
 
 
+.hero {
+	background-image: url("../pictures/misc/coverphoto2.jpg");
+	height: 320px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	margin-bottom: -56px;
+}
 
 
   #overlay {
@@ -1427,6 +1436,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
