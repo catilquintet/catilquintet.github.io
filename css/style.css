@@ -923,7 +923,14 @@ ul.pages-music p {
 
 /************************************Hero Photos*******************************************/
 
-
+.hero {
+  background-image: url("../pictures/misc/coverphoto2.jpg");
+  margin-top: 90px;
+  background-repeat: no-repeat;
+  height: 380px;
+  margin-bottom: -46px;
+  border-bottom: 0.2em solid #333a56;
+}
 
 .music-hero {
   background-image: url("../pictures/misc/catilbeachphoto.jpg");
@@ -970,15 +977,7 @@ ul.pages-music p {
     padding-top: 0.5em;
   }
 
-  .hero {
-    background-image: url("../pictures/misc/coverphotocropped.jpg");
-    height: 320px;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    margin-bottom: -100px;
-  }
+
 
 
   #overlay {
@@ -1428,6 +1427,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
