@@ -925,11 +925,10 @@ ul.pages-music p {
 
 .hero {
   background-image: url("../pictures/misc/coverphoto2.jpg");
-  margin-top: 90px;
-  background-repeat: no-repeat;
-  height: 380px;
-  margin-bottom: -46px;
-  border-bottom: 0.2em solid #333a56;
+	height: 380px;
+	z-index: 100;
+	margin-bottom: -46px;
+	border-bottom: .2em solid #333a56;
 }
 
 .music-hero {
