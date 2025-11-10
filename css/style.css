@@ -1399,8 +1399,36 @@ div li.hide {
   background-size: cover;
 }
 
-.n {
-  background-image: url("../pictures/musicians/lilyheadshot.jpg");
+
+/* .n {
+  background-image: url("../pictures/musicians/");
+  background-size: cover;
+} */
+
+.o {
+  background-image: url("../pictures/gallery/train.JPG");
+  background-size: cover;
+}
+
+.p {
+  background-image: url("../pictures/gallery/sea.JPG");
+  background-size: cover;
+}
+
+.q {
+  background-image: url("../pictures/gallery/piano.jpg");
+  background-size: cover;
+}
+.r {
+  background-image: url("../pictures/gallery/sky.JPG");
+  background-size: cover;
+}
+.s {
+  background-image: url("../pictures/gallery/tim.JPG");
+  background-size: cover;
+}
+.t {
+  background-image: url("../pictures/gallery/piano.JPG");
   background-size: cover;
 }
 
@@ -1435,6 +1463,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
