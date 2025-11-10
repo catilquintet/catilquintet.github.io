@@ -1395,15 +1395,15 @@ div li.hide {
 }
 
 .m {
-  background-image: url("../pictures/musicians/isabellaheadshot.jpg");
+  background-image: url("../pictures/musicians/lilyheadshot.jpg");
   background-size: cover;
 }
 
 
-/* .n {
-  background-image: url("../pictures/musicians/");
+.n {
+  background-image: url("../pictures/musicians/isabellaheadshot.jpg");
   background-size: cover;
-} */
+}
 
 .o {
   background-image: url("../pictures/gallery/train.JPG");
@@ -1463,6 +1463,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
