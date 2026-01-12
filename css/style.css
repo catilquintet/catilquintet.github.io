@@ -926,7 +926,6 @@ ul.pages-music p {
 .hero {
   background-image: url("../pictures/misc/coverphoto.jpg");
 	height: 400px;
-	zoom: 50%;
 	z-index: 100;
 	margin-bottom: -46px;
 	border-bottom: .2em solid #333a56;
@@ -1464,6 +1463,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
