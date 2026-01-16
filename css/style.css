@@ -923,7 +923,7 @@ ul.pages-music p {
 
 /************************************Hero Photos*******************************************/
 .hero {
-  background-image: url("../pictures/misc/coverphoto.jpg");
+  background-image: url("../pictures/misc/coverphoto2.jpg");
   height: 70vh;
   z-index: 100;
   margin-bottom: -50px;
@@ -954,7 +954,7 @@ ul.pages-music p {
 }
 
 #overlay {
-  height: 380px;
+  height: 70vh;
 }
 
 #music-overlay {
@@ -1470,6 +1470,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
