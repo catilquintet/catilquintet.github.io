@@ -945,7 +945,6 @@ ul.pages-music p {
 .music-hero {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
   position: relative;
 }
 
@@ -1466,6 +1465,7 @@ div li.hide {
 }
 
 /**********************************************************************************************************/
+
 
 
 
